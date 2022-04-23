@@ -1,0 +1,19 @@
+pip install django-crispy-forms
+https://jcutrer.com/windows/install-chocolatey-choco-windows10
+https://github.com/FiloSottile/mkcert
+https://timonweb.com/django/https-django-development-server-ssl-certificate/
+pip install pyOpenSSL
+
+python manage.py runserver_plus --cert-file cert.pem --key-file key.pem
+
+__________________________________________
+Zbytek ignorujte
+
+#pip install mysqlclient
+#https://dev.mysql.com/downloads/installer/
+#https://dev.mysql.com/downloads/mysql/5.5.html?os=3&version=5
+
+#SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+#SECURE_SSL_REDIRERCT = True
+#SESSION_COOKIE_SECURE = True
+#CSRF_COOKIE_SECURE = True
